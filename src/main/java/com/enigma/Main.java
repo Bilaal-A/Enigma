@@ -16,7 +16,7 @@ public class Main {
         System.out.print("(t/f)> ");
         String initialSub = scanner.nextLine().toUpperCase();
         ArrayList<Character> rA;
-        if(initialSub.equals("T")) {rA = randomAlphabet(randomAlphabet(alphabet));}
+        if(initialSub.equals("T")) {rA = randomAlphabet(alphabet);}
         else{rA = randomAlphabet();}
         Main.randAlpha = rA;
         System.out.println();
