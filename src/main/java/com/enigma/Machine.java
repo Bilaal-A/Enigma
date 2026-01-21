@@ -25,6 +25,7 @@ public class Machine {
 
 
         printTable(randAlpha, randPairs);
+        System.out.println("Rotor Start Indices: " + weekday1 + "-" + weekday2 + "-" + weekday3);
         while (true) {
             System.out.println();
             System.out.println(run(weekday1, weekday2, weekday3));
